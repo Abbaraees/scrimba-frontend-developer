@@ -14,10 +14,6 @@ body {
     opacity: 0.9;
     border-radius: 25px;
 }
-.avatar:hover {
-    opacity: 1;
-    border-radius: 10px; 
-}
 
 .card {
     width: 500px;
@@ -27,6 +23,7 @@ body {
     justify-content: space-around;
     text-align: center;
     background: #ddbea8;
+    border-radius: 5px;;
     color: #160f29;
     border-bottom: 6px solid #160f29;
     animation-name: animated-border;
@@ -45,14 +42,18 @@ body {
     }
 
 }
+h3 {
+    text-shadow: 0px 0px 3px rgb(18, 148, 165);
+}
+p {
+    font-style: italic;
+}
+h4 {
+    border-bottom: 2px solid #341734;
+}
 .card h3:hover {
     text-shadow: 5px 3px 4px #341734;
 }
-
-.border-blue {
-    border: 1px dotted blue;
-}
-
 
 /*
 Stretch goals:
