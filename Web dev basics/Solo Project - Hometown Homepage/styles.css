@@ -1,0 +1,100 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    background-color: #F1FAEE;
+    font-family: 'DynaPuff', cursive;
+}
+
+
+#hero {
+    background: url('images/daura-00.jpg');
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title, #subtitle {
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#title {
+    background-color: #1D3557;
+    margin: 0;
+}
+
+#subtitle {
+    width: 50%;
+    background-color: #457B9D;
+}
+
+#activities-container {
+    background-color: #A8DADC;
+}
+
+#activities-container h3 {
+    margin: 0;
+    padding-top: 20px;
+    font-variant: small-caps;
+    text-shadow: 0px 4px 5px #457B9D;
+    color: #1D3557;
+}
+
+#acivities {
+    color: #1D3557;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.activity{
+    margin: 0 20px;
+}
+
+.activity img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #2577C9;
+
+}
+
+#guide-container {
+    display: flex;
+    justify-content: center;
+    padding: 20;
+    padding: 50px 0px;
+}
+
+#guide {
+    width: 30%;
+    display: flex;
+    color: #1D3557;
+    flex-direction: row-reverse;
+    background-color: #A8DADC;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px #1D3557;
+}
+
+#guide img {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
