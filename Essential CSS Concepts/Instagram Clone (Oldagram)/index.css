@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #C6C6C6;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #C6C6C6;
+    background-color: white;
+}
+
+.user-avatar, .author-avatar {
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+
+.post {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.author-info {
+    display: flex;
+    height: 60px;
+    padding: 10px;
+
+}
+
+.author-info p {
+    margin: 0 10px;
+    margin-bottom: 5px;
+}
+
+.author-avatar {
+    height: 60px;
+}
+
+.author-name, .likes {
+    font-weight: 700;
+}
+
+.post-image{
+    width: 100%;
+}
+
+.post-icons {
+    padding: 21px 0px 0px 10px;
+}
+
+.post-icons button{
+    margin-right: 15px;
+    background-color: inherit;
+    border: none;    
+}
+
+.post-icons button img {
+    width: 30px;
+}
+
+.post-icons button img:hover {
+    opacity: 0.5;
+}
+
+.post-content {
+    padding: 10px;
+    margin-top: 15px;
+}
+.post-content p {
+    margin: 0;
+    margin-bottom: 15px;
+}
